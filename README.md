@@ -1,8 +1,25 @@
-# PDF-Answering-AI
+# Mistral PDF AI
+
+The Mistral PDF AI is an intelligent chatbot application designed to assist users in interacting with PDF documents. Leveraging advanced language models and machine learning techniques, this chatbot can summarize, locate specific information, simplify complex sections, highlight important parts, and answer questions based on the content of uploaded PDF files.
+
+The app is made using streamlit and can be used directly once the setup is completed on colab.
+
+## Features 
+**Summarize Documents**:  Get concise overviews of key points from the uploaded PDF documents.
+
+**Find Specific Information**:  Locate specific details or data within the PDFs.
+
+**Explain Complex Sections**:  Simplify difficult-to-understand parts of the documents.
+
+**Highlight Important Sections**:  Identify key findings or critical clauses in the PDFs.
+
+**Answer Questions**:  Provide answers to user questions based on the document content and the ongoing conversation.
+
+# SETUP FOR COLAB
 
 ## Requirements
 
-First, install the requirements by running the following command:
+First, pull the repository from github and then, install the requirements by running the following command:
 
 ```python
 !pip install -r requirements.txt
@@ -75,3 +92,27 @@ Copy the provided URL (e.g., `https://rare-gifts-share.loca.lt`) and paste it in
 Once the app is open in your browser, paste the copied code into the text box and submit it.
 
 That's it! You've now successfully installed and set up the PDF Answering AI on your colab.
+
+## Dependencies and Device Specs (In case deployed locally)
+
+### Model and Hardware Requirements
+- **Model Size:** 5.13 GB
+- **GPU Requirement:** 8 GB
+- **Embedding Model Size:** 2.5 GB
+- **CPU Requirement:** 4 GB
+
+### Required Packages
+To ensure the application runs smoothly, the following packages are required:
+
+- `streamlit`
+- `langchain==0.0.184`
+- `PyPDF2==3.0.1`
+- `python-dotenv==1.0.0`
+- `faiss-cpu==1.7.4`
+- `altair==4`
+- `tiktoken==0.4.0`
+- `huggingface-hub==0.14.1`
+- `sentence-transformers==2.2.2`
+
+
+
