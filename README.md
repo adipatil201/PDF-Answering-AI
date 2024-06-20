@@ -19,7 +19,11 @@ The app is made using streamlit and can be used directly once the setup is compl
 
 ## Requirements
 
-First, pull the repository from github and then, install the requirements by running the following command:
+First, pull the repository from github and then, install the requirements by running the following 2 commands:
+
+```python
+!pip install streamlit -q
+```
 
 ```python
 !pip install -r requirements.txt
